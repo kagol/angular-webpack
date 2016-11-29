@@ -6,6 +6,7 @@ module.exports = {
     filename: './bundle.js'
   },
   module: {
+    noParse: [/moment/],
     loaders: [//加载器
       {test: /\.html$/, loader: 'raw'},
       {test: /\.css$/, loader: 'style!css'},
