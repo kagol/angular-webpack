@@ -6,5 +6,5 @@
 ## 博客链接
  源码的解读在我的博客里有
 
- [文章链接](http://www.cnblogs.com/kagol/p/5152734.html?_blank)
+ [文章链接](http://www.cnblogs.com/kagol/p/5152734.html)
 
