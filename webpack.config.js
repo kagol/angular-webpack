@@ -8,10 +8,10 @@ module.exports = {
   module: {
     noParse: [/moment/],
     loaders: [//加载器
-      {test: /\.html$/, loader: 'raw'},
-      {test: /\.css$/, loader: 'style!css'},
-      {test: /\.scss$/, loader: 'style!css!sass'},
-      {test: /\.(png|jpg|ttf)$/, loader: 'url?limit=8192'}
+      {test: /\.html$/, loader: 'raw-loader'},
+      {test: /\.css$/, loader: 'style-loader!css-loader'},
+      {test: /\.scss$/, loader: 'style-loader!css-loader!sass-loader'},
+      {test: /\.(png|jpg|ttf)$/, loader: 'url-loader?limit=8192'}
     ]
   }
 };
